@@ -1,4 +1,4 @@
-package fr.maxlego08.koth.event;
+package fr.maxlego08.koth.api.event.events;
 
 import org.bukkit.entity.Player;
 
