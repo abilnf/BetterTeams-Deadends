@@ -1,4 +1,4 @@
-package fr.maxlego08.koth;
+package fr.maxlego08.zkoth.api;
 
 import java.util.List;
 
