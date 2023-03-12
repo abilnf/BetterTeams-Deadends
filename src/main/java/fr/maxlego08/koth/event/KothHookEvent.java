@@ -1,6 +1,6 @@
 package fr.maxlego08.koth.event;
 
-public class KothRegisterEvent {
+public class KothHookEvent {
 
 	public void setFactionListener(Object obj){
 		
