@@ -1,15 +1,11 @@
 package fr.maxlego08.zkoth.api;
 
 import java.util.List;
-
 import org.bukkit.entity.Player;
+import org.bukkit.event.Listener;
 
-public interface FactionListener {
-	public String getFactionTag(Player p);
-
-	public String getFactionTag(String p);
-
-	public List<Player> getOnlinePlayer(String p);
-
-	public List<Player> getOnlinePlayer(Player p);
+public interface FactionListener extends Listener {
+	String getFactionTag(Player paramPlayer);
+	
+	List<Player> getOnlinePlayer(Player paramPlayer);
 }
